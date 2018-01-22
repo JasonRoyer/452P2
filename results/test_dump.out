@@ -1,0 +1,13 @@
+ 
+---------Starting Test DUMP ----------
+PID Parent Priority State Killed #child CPUTime Name
+--- ------ --- ---------- ------ ------ ------ +
+  0   None   6      ready  FALSE     0      0 | sentinel
+  1      2   4      ready  FALSE     0      0 | child 4
+  2   None   3      ready  FALSE     2      5 | child 3
+  3      2   2    running  FALSE     0      0 | child 2
+
+P1_ReadTime(): 5
+ 
+---------End Test DUMP ----------
+Goodbye.

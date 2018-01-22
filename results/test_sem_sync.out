@@ -1,0 +1,21 @@
+ 
+---------Starting Test SEM_SYNC ----------
+start phase2_start
+start XXp1
+join kernel_start (1)
+exit status1 = 0
+join kernel_start (2)
+start XXp2
+join XXp2
+start XXp3
+exit status3 = 0
+exit status2 = 5
+P(sem2)
+start XXp4
+V(sem2)
+V(sem1)
+join kernel_start (3)
+P(sem1)
+exit status4 = 7
+ ---------Ending Test SEM_SYNC ----------
+Goodbye.

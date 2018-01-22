@@ -1,0 +1,14 @@
+ 
+---------Starting Test CLOCK ----------
+wait period : 100000
+wait period : 100001
+wait period : 100001
+wait period : 100000
+wait period : 99999
+wait period : 99999
+wait period : 100002
+wait period : 99998
+wait period : 100002
+wait period : 99998
+ ---------Ending Test CLOCK ----------
+Goodbye.
